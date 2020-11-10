@@ -226,6 +226,11 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
 
+bit-buffer@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/bit-buffer/-/bit-buffer-0.2.4.tgz#5520ffb2f656734d44ab9227d88a4be234364a0b"
+  integrity sha512-j4rQZTEpdCkb662lkiemA4mlcv9IraC8yA+BnMT4wzOldUCKPTkbgKXL6nwRqtlqiuh+GZYh/sFAzXPpUd9FPQ==
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
