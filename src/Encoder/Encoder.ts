@@ -43,7 +43,7 @@ export class Encoder implements IEncoder {
   /**
    * ts header size(bytes).
    */
-  readonly headerSize: number = 8
+  readonly headerSize: number = 4
 
   /**
    * payload size(bytes).
