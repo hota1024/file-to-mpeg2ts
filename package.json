@@ -4,7 +4,7 @@
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "rm -rf out && mkdir out & ts-node src/index.ts",
+    "start": "rm -rf out && rm -rf decoded && mkdir out && mkdir decoded & ts-node src/index.ts",
     "build": "tsc",
     "watch": "tsc --watch"
   },
