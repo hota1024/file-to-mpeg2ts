@@ -117,7 +117,13 @@ function decode(input: string, output: string, ext: string): void {
   }
 }
 
-const files = ['test0', 'test1', 'test2']
-files.forEach((file) => encode(`input/${file}.jpg`, 'out', `${file}-`))
-console.log(chalk.blue('\nencoded all images to ts files.\n'))
-decode('out', 'out', 'jpg')
+;(async () => {
+  const files = ['test0', 'test1', 'test2']
+  files.forEach((file) => encode(`input/${file}.jpg`, 'out', `${file}-`))
+  console.log(chalk.blue('\nencoded all images to ts files.\n'))
+
+  await cli.anykey()
+  console.log()
+
+  decode('out', 'decoded', 'jpg')
+})()
