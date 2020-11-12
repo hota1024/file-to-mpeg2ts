@@ -13,4 +13,6 @@ yarn # or npm install
 mkdir input out
 
 # move input files to input/
+
+yarn start # run
 ```
